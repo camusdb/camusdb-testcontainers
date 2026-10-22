@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <OutputType>Exe</OutputType>
+    <IsPackable>false</IsPackable>
+    <IsTestProject>true</IsTestProject>
+    <GenerateDocumentationFile>false</GenerateDocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- Only the tests use the ADO.NET provider: they check that it accepts the module's connection strings. -->
+    <PackageReference Include="CamusDB.Client" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" />
+    <PackageReference Include="xunit.v3" />
+    <PackageReference Include="xunit.runner.visualstudio" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="../../src/CamusDB.Testcontainers/CamusDB.Testcontainers.csproj" />
+    <ProjectReference Include="../../src/CamusDB.Testcontainers.XunitV3/CamusDB.Testcontainers.XunitV3.csproj" />
+  </ItemGroup>
+
+</Project>

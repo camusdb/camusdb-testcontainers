@@ -1,0 +1,14 @@
+<Project>
+
+  <ItemGroup>
+    <PackageVersion Include="Testcontainers" Version="4.16.0" />
+    <PackageVersion Include="Testcontainers.Xunit" Version="4.16.0" />
+    <PackageVersion Include="Testcontainers.XunitV3" Version="4.16.0" />
+    <PackageVersion Include="CamusDB.Client" Version="0.16.0" />
+    <PackageVersion Include="JetBrains.Annotations" Version="2026.2.0" />
+    <PackageVersion Include="Microsoft.NET.Test.Sdk" Version="18.11.0" />
+    <PackageVersion Include="xunit.v3" Version="3.2.2" />
+    <PackageVersion Include="xunit.runner.visualstudio" Version="3.1.5" />
+  </ItemGroup>
+
+</Project>

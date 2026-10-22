@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>net8.0;net9.0;net10.0</TargetFrameworks>
+    <RootNamespace>CamusDB.Testcontainers.Xunit</RootNamespace>
+    <PackageId>CamusDB.Testcontainers.Xunit</PackageId>
+    <Description>xUnit.net v2 fixture for CamusDB.Testcontainers: shares one CamusDB container across the tests of a class or a collection.</Description>
+    <PackageTags>$(PackageTags);xunit</PackageTags>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Testcontainers.Xunit" />
+    <PackageReference Include="JetBrains.Annotations" PrivateAssets="All" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="../CamusDB.Testcontainers/CamusDB.Testcontainers.csproj" />
+  </ItemGroup>
+
+</Project>

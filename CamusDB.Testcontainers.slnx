@@ -1,0 +1,10 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/CamusDB.Testcontainers.Xunit/CamusDB.Testcontainers.Xunit.csproj" />
+    <Project Path="src/CamusDB.Testcontainers.XunitV3/CamusDB.Testcontainers.XunitV3.csproj" />
+    <Project Path="src/CamusDB.Testcontainers/CamusDB.Testcontainers.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/CamusDB.Testcontainers.Tests/CamusDB.Testcontainers.Tests.csproj" />
+  </Folder>
+</Solution>

@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <!-- Compiles the CamusDB.Testcontainers.Xunit sources against xUnit.net v3; XUNIT_V3 selects the
+       v3 lifetime types, as in Testcontainers.XunitV3. -->
+  <PropertyGroup>
+    <TargetFrameworks>net8.0;net9.0;net10.0</TargetFrameworks>
+    <RootNamespace>CamusDB.Testcontainers.Xunit</RootNamespace>
+    <PackageId>CamusDB.Testcontainers.XunitV3</PackageId>
+    <Description>xUnit.net v3 fixture for CamusDB.Testcontainers: shares one CamusDB container across the tests of a class or a collection.</Description>
+    <PackageTags>$(PackageTags);xunit</PackageTags>
+    <DefineConstants>$(DefineConstants);XUNIT_V3</DefineConstants>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Testcontainers.XunitV3" />
+    <PackageReference Include="JetBrains.Annotations" PrivateAssets="All" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="../CamusDB.Testcontainers/CamusDB.Testcontainers.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Include="../CamusDB.Testcontainers.Xunit/*.cs" />
+  </ItemGroup>
+
+</Project>
