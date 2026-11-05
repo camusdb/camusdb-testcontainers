@@ -11,7 +11,7 @@
 
   <!-- Package metadata shared by every packable project. Test projects set IsPackable=false. -->
   <PropertyGroup>
-    <Version>0.1.0</Version>
+    <Version>0.17.0</Version>
     <Authors>Andres Gutierrez</Authors>
     <Copyright>Copyright (c) 2021-2026 Andres Gutierrez</Copyright>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
