@@ -94,7 +94,7 @@ If the server returns a status code that is not 2xx, the method throws `InvalidO
 
 | Builder method | Effect |
 | --- | --- |
-| `new CamusDbBuilder(image)` | Sets the image. The default is `camusdb/camusdb:0.15.3`. |
+| `new CamusDbBuilder(image)` | Sets the image. The default is `camusdb/camusdb:0.18.5`. |
 | `WithAuthentication(username, password)` | Turns on authentication and creates a bootstrap superuser. |
 | `WithMemoryProfile("dev")` | Limits the server caches to approximately 96 MiB. Use it when one host runs many containers. |
 | `WithPartitions(n)` | Sets the number of Raft partitions. The image default is 4. |

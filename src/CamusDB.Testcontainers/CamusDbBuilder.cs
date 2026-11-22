@@ -11,7 +11,7 @@ public sealed class CamusDbBuilder : ContainerBuilder<CamusDbBuilder, CamusDbCon
     /// <summary>
     /// The default Docker image, pinned to a published release.
     /// </summary>
-    public const string CamusDbImage = "camusdb/camusdb:0.15.3";
+    public const string CamusDbImage = "camusdb/camusdb:0.18.5";
 
     /// <summary>
     /// The container port of the JSON/HTTP API.
@@ -42,7 +42,7 @@ public sealed class CamusDbBuilder : ContainerBuilder<CamusDbBuilder, CamusDbCon
     /// </summary>
     /// <param name="image">
     /// The full Docker image name, including the image repository and tag
-    /// (e.g., <c>camusdb/camusdb:0.15.3</c>).
+    /// (e.g., <c>camusdb/camusdb:0.18.5</c>).
     /// </param>
     /// <remarks>
     /// Docker image tags available at <see href="https://hub.docker.com/r/camusdb/camusdb/tags" />.
